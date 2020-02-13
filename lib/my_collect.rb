@@ -2,7 +2,7 @@ def my_collect(array)
   i = 1 
   collection = []
     while i < array.length
-      collection << yield(array[i]) {|i| i.split (" ").first
+      collection << yield(array[i]) {|i| i.split(" ").first
   i += 1
   end
 collection
