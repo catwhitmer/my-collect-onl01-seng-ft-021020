@@ -8,4 +8,3 @@ def my_collect(array)
 collection
 end
 
-collection(array) {|i| i.split (" ").first
